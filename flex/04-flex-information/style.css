@@ -13,3 +13,16 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.flowers-section {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.image-group {
+  max-width: 200px;
+  text-align: center;
+  /* display: flex; */
+}

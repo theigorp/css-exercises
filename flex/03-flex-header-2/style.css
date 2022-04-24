@@ -13,29 +13,32 @@ body {
 ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .left-side {
   margin-right: auto;
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 .right-side {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
   align-items: center;
-  padding-right: 10px;
 }
 
 .profile-image {
@@ -64,5 +67,4 @@ a {
   color: rebeccapurple;
   font-weight: 900;
   font-style: italic;
-  padding-left: 10px;
 }

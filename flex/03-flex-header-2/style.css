@@ -41,6 +41,13 @@ a {
   color: rebeccapurple;
 }
 
+.logo {
+  font-size: 32px;
+  color: rebeccapurple;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /* body {
   margin: 0;
   background: #eee;
@@ -75,13 +82,3 @@ button {
   color: white;
   padding: 8px 24px;
 }
-
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-}
-
-ul {
-  list-style-type: none;
-} */

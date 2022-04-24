@@ -21,13 +21,25 @@ ul {
 }
 
 .profile-image {
-  background-color: purple;
+  background-color: rebeccapurple;
   height: 48px;
   width: 48px;
   border-radius: 50%;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
 }
 
+.notifications {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+}
 
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
 
 /* body {
   margin: 0;

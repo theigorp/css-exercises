@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: purple;
+  background-color: darkmagenta;
   font-size: 32px;
   color: white;
   padding: 16px;
@@ -18,7 +18,7 @@ header {
 footer {
   background-color: #eee;
   font-size: 18px;
-  color: blueviolet;
+  color: darkmagenta;
   padding: 24px;
 }
 
@@ -39,26 +39,32 @@ main {
 }
 
 .card {
-  max-width: 300px;
-  min-height: 200px;
+  width: 300px;
+  /* min-height: 200px; */
+  padding: 16px;
+  margin: 16px;
   border: 1px solid #eee;
-  box-shadow: 1px 1px 1px #eee;
+  border-radius: 4px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
 }
 
 .cards-section {
   display: flex;
   flex-wrap: wrap;
-  padding: 44px;
-  gap: 36px;
+  padding: 32px;
 }
 
-main li {
-  list-style-type: none;
+.sidebar ul {
+  font-size: 24px;
+  list-style: "⭐  - ";
+  color: white;
+  padding-top: 0;
+  margin-top: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+.sidebar li {
+  margin-bottom: 16px;
+  margin-top: 10px;
 }
 
 a {
@@ -68,4 +74,6 @@ a {
 
 .sidebar {
   background-color: royalblue;
+  box-sizing: border-box;
+  padding-left: 16px;
 }

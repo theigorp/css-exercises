@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAYOUT</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div class="header">
-      <ul class="left-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Store</a></li>
-      </ul>
-      <ul class="right-links">
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
+    <title>TheOdinProject Landing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <div class="left-side">
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Store</li></a>
+            </div>
+            <div class="right-side">
+                <a href="#"><li>Profile</li></a>
+                <a href="#"><li>Settings</li></a>
+            </div>
+        </ul>
+    </header>
+
+    <div class="main-content">
+        <img src="logo.png" alt="theodinproject logo">
+        <input type="text" name="searchbar" id="searchbar">
+        <div class="action-buttons">
+            <button>Do the thing!</button>
+            <button>Do the other thing!</button>
+        </div>
     </div>
-    <div class="content">
-      <img src="./logo.png" alt="">
-      <div class="input">
-        <input type="text">
-      </div>
-      <div class="buttons">
-        <button>Do the thing!</button>
-        <button>Do the other thing!</button>
-      </div>
-    </div>
-    <div class="footer">
-      <ul class="left-links">
-        <li><a href="#">Advertising</a></li>
-        <li><a href="#">Business</a></li>
-      </ul>
-      <ul class="right-links">
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-      </ul>
-    </div>
-  </body>
+
+    <footer>
+        <ul>
+            <div class="left-side-footer">
+                <a href="#"><li>Advertising</li></a>
+                <a href="#"><li>Business</li></a>
+            </div>
+            <div class="right-side-footer">
+                <a href="#"><li>Privacy</li></a>
+                <a href="#"><li>Terms</li></a>
+            </div>
+        </ul>
+    </footer>
+</body>
 </html>

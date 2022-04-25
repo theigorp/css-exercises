@@ -1,27 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header, footer {
+    padding: 10px;
+}
+
+footer {
+    background-color: #ddd;
+}
+
+.left-side, .right-side {
+    display: flex;
+    gap: 16px;
+    font-size: 20px;
+}
+
+.left-side-footer, .right-side-footer {
+    display: flex;
+    gap: 16px;
+    font-size: 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
-  width: 600px;
-}
-
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
+    max-width: 600px;
 }
 
 input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
-  margin-bottom: 16px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
 }

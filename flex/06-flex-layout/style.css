@@ -7,11 +7,12 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
     text-decoration: none;
-    color: gray;
+    color: #666;
 }
 
 li {
@@ -26,12 +27,17 @@ ul {
 }
 
 header, footer {
-    padding: 10px;
-    font-weight: 7 00;
+    padding: 16px;
+    font-weight: 600;
 }
 
 footer {
-    background-color: #ddd;
+    background-color: #eee;
+    /* margin-top: auto; */
+}
+
+footer a {
+    font-size: 15px;
 }
 
 .left-side, .right-side {
@@ -47,6 +53,7 @@ footer {
 }
 
 .main-content{
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,4 +77,5 @@ button {
     border: none;
     border-radius: 8px;
     background: #eee;
+    padding: 8px 16px;
 }

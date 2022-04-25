@@ -19,29 +19,37 @@ footer {
   background-color: #eee;
   font-size: 18px;
   color: blueviolet;
-  padding: 8px;
+  padding: 24px;
+}
+
+.credits {
+  text-align: center;
 }
 
 main {
   display: flex;
-  align-items: stretch;
+  flex: auto;
 }
 
 .sidebar {
-  /* min-width: 200px; */
+  min-width: 300px;
+  flex-shrink: none;
   /* min-height: auto; */
   align-self: stretch;
 }
 
 .card {
-  max-width: 400px;
+  max-width: 300px;
+  min-height: 200px;
   border: 1px solid #eee;
-  box-shadow: inset;
+  box-shadow: 1px 1px 1px #eee;
 }
 
 .cards-section {
   display: flex;
   flex-wrap: wrap;
+  padding: 44px;
+  gap: 36px;
 }
 
 main li {
